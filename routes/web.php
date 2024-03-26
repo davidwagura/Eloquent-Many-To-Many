@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\NewController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', [Controller::class, 'records']);
+Route::get('/', [newController::class, 'records']);
